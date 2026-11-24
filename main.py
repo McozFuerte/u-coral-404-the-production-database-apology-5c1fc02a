@@ -1,6 +1,6 @@
 import os
 
-ENTRY = "I dropped production and committed the deletion as 'fix: cleanup', so git blame will always know exactly who to blame."
+ENTRY = "I'm sorry I deleted the production database. I retried the delete job three times before accepting the first attempt had worked."
 
 os.makedirs("/output", exist_ok=True)
 with open("/output/entry.txt", "w", encoding="utf-8") as f:
